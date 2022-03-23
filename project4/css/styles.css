@@ -28,9 +28,22 @@ body {
     font-family: Arial;
 }
 .dots {
-    padding-left: 20px;
+    padding: 20px;
     font-size: 20px;
     font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+.dots:hover {
+    color: red;
+}
+.optsPop {
+    background: black;
+    border: 1px solid #fff;
+    position: absolute;
+    left: 20px;
+    width: 250px;
+    display: none;
 }
 .sign {
     font-weight: bold;
