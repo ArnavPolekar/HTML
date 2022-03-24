@@ -7,45 +7,42 @@
 
 </head>
 
-<body class="bd">    
-        <aside class="sideBar">
-            <a class="dots" href="" onmouseover="showPop('on')" onmouseleave="showPop('off')">...</a>
-            <div id="optionsPop" class="optsPop" onmouseover="showPop('on')" onmouseleave="showPop('off')">
-                  <ul>
-                      <li>Option 1</li>
-                      <li>Option 2</li>
-                      <li>Option 3</li>
-                      <li>Option 4</li>
-                  </ul>
-            </div>
-            <h2 class="sideHead">Welcome</h2>
-            <h1 class="search">Search</h1>
-            <h1 class="search">Recently played</h1>
-            <h1 class="search">Liked songs</h1>
-            <hr>
-            <h1 class="search">Your playlist :-</h1>
-            <div>
-                <span class="sign">1.</span>
-                <span class="search ply">Favourite</span>
-            </div>
-            <div>
-                <span class="sign">+</span>
-                <span class="search ply">New playlist</span>
-            </div>
-            <div>
-                <h1 class="search">Curently played</h1>
-                <img src="images\Untitled.png" alt="playedSong" height="300px"
-                    width="300px">
-            </div>
+<body class="bd">
+    <aside class="sideBar">
+        <a class="dots" href="" onmouseover="showPop('on')" onmouseleave="showPop('off')">...</a>
+        <div id="optionsPop" class="optsPop" onmouseover="showPop('on')" onmouseleave="showPop('off')">
+            <ul>
+                <li><a href="#" class="popTxt">Account</a></li>
+                <li><a href="#" class="popTxt">Setting</a></li>
+            </ul>
+        </div>
+        <h2 class="sideHead">Welcome</h2>
+        <h1 class="search">Search</h1>
+        <h1 class="search">Recently played</h1>
+        <h1 class="search">Liked songs</h1>
+        <hr>
+        <h1 class="search">Your playlist :-</h1>
+        <div>
+            <span class="sign">1.</span>
+            <span class="search ply">Favourite</span>
+        </div>
+        <div>
+            <span class="sign">+</span>
+            <span class="search ply">New playlist</span>
+        </div>
+        <div>
+            <h1 class="search">Curently played</h1>
+            <img src="images\Untitled.png" alt="playedSong" height="300px" width="300px" class="plyImg">
+        </div>
 
-        </aside>
-      
-     <footer class="taskbar">
-            <audio src="cryBaby.mp3" id="song"></audio>
-            <button onclick="document.getElementById('song').play()" class="playBtn">Play</button>
-            <button onclick="document.getElementById('song').pause()" class="playBtn">Pause</button>
-        </footer>
-      <script src="scripts/script.js"></script>
+    </aside>
+
+    <footer class="taskbar">
+        <audio src="cryBaby.mp3" id="song"></audio>
+        <button onclick="document.getElementById('song').play()" class="playBtn">Play</button>
+        <button onclick="document.getElementById('song').pause()" class="playBtn">Pause</button>
+    </footer>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
