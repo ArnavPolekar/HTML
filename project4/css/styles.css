@@ -9,13 +9,12 @@ body {
     padding: 0%;
 }
 .sideBar {
-    width: 20%;
     background-color: rgb(0, 0, 0);
     color: #fff;
     margin: 0%;
     position: absolute;
     top: 0%;
-    height: 100%;
+    vh: 100%;
 }
 .sideHead {
     color: #fff;
