@@ -4,7 +4,7 @@ body {
 
 .box {
     width: 350px;
-    height: 350px;
+    height: 370px;
     margin: 100px auto;
     background-color: #fff;
     padding: 20px 50px 50px 50px;
@@ -24,6 +24,7 @@ body {
 .stuId {
     font-size: 20px;
     padding: 10px;
+    font-family: sans-serif;
 }
 
 .login {
@@ -33,6 +34,7 @@ body {
 .rgtTxt {
     text-align: right;
     display: block;
+    color: #000;
 }
 
 .btn {
@@ -49,7 +51,6 @@ body {
     cursor: pointer;
     border-radius: 8px;
     position: absolute;
-    bottom: 399px;
 }
 
 .btn1 {
